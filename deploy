@@ -1,0 +1,4 @@
+#!/bin/sh
+
+file=`git log --name-status -p -1 | egrep "^[AM]\s+\"?articles\/.*\.md" | awk '{print $2}' | head -1 | sed -e 's/^\"//g' | sed -e 's/\"$//g'`
+md2medium --file $file
