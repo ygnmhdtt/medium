@@ -1,4 +1,11 @@
 #!/bin/sh
 
 file=`git log --name-status -p -1 | egrep "^[AM]\s+\"?articles\/.*\.md" | awk '{print $2}' | head -1 | sed -e 's/^\"//g' | sed -e 's/\"$//g'`
+
+if [ -n "$file" ]; then
+  echo "No files added at articles/"
+  echo "No files were deployed"
+  exit 0
+fi
+
 md2medium --file $file
