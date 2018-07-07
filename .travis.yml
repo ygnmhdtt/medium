@@ -1,0 +1,7 @@
+language: golang
+
+install:
+  - go get github.com/ygnmhdtt/md2medium
+
+script:
+  - ./deploy
