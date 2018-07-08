@@ -1,2 +1,3 @@
 new:
-	hugo new articles/$(F).md
+	@./scripts/new $(F)
+	@echo "articles/$(F).md generated"
