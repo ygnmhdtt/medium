@@ -4,4 +4,4 @@ install:
   - go get github.com/ygnmhdtt/md2medium
 
 script:
-  - ./deploy
+  - ./scripts/deploy
