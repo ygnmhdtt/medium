@@ -2,10 +2,17 @@
 
 cd `dirname $0`
 
-file_name=$1
+# new or draft
+state=$1
+file_name=$2
 date=`date "+%Y-%m-%dT%H:%M:%S+09:00"`
 
 cp ./template.md ./${file_name}.md
 sed -i -e "s/this_is_title/$file_name/g" ./${file_name}.md
 sed -i -e "s/this_is_date/$date/g" ./${file_name}.md
-mv ./${file_name}.md ../articles/
+
+if [ $state = "new" ]; then
+  mv ./${file_name}.md ../articles/
+else
+  mv ./${file_name}.md ../drafts/
+fi
