@@ -1,8 +1,9 @@
 #!/bin/sh
 
 file=`git log --name-status -p -1 | egrep "^[AM]\s+\"?articles\/.*\.md" | awk '{print $2}' | head -1 | sed -e 's/^\"//g' | sed -e 's/\"$//g'`
+echo $file
 
-if [ -n "$file" ]; then
+if [ -z "$file" ]; then
   echo "No files added at articles/"
   echo "No files were deployed"
   exit 0
