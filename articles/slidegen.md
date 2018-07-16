@@ -15,7 +15,7 @@ If you used to use markdown and commandline, you can try [slidegen](https://gith
 
 # Simple and minimal command
 
-![](https://github.com/ygnmhdtt/slidegen/blob/master/samples/demo.gif)
+![](https://raw.githubusercontent.com/ygnmhdtt/slidegen/master/samples/demo.gif)
 
 All you have to do is specifying file name just like this.
 
@@ -65,9 +65,9 @@ Pull requests are always welcome!
 
 I created slide from this entry. (PDF cannot be posted on medium, I converted into images.)
 
-![](https://github.com/ygnmhdtt/slidegen/blob/master/medium/1.png)
-![](https://github.com/ygnmhdtt/slidegen/blob/master/medium/2.png)
-![](https://github.com/ygnmhdtt/slidegen/blob/master/medium/3.png)
-![](https://github.com/ygnmhdtt/slidegen/blob/master/medium/4.png)
-![](https://github.com/ygnmhdtt/slidegen/blob/master/medium/5.png)
+![](https://raw.githubusercontent.com/ygnmhdtt/slidegen/master/medium/1.png)
+![](https://raw.githubusercontent.com/ygnmhdtt/slidegen/master/medium/2.png)
+![](https://raw.githubusercontent.com/ygnmhdtt/slidegen/master/medium/3.png)
+![](https://raw.githubusercontent.com/ygnmhdtt/slidegen/master/medium/4.png)
+![](https://raw.githubusercontent.com/ygnmhdtt/slidegen/master/medium/5.png)
 
